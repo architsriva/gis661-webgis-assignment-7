@@ -59,11 +59,15 @@ body {
 .map-page-container {
   width: 96%;
   max-width: 1400px;
-  margin: 2rem auto;
+  margin: 0 auto 2rem auto;
   background: white;
-  padding: 2rem;
+  padding: 1.5rem 2rem 2rem 2rem;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.map-page-container h1 {
+  margin-top: 0;
 }
 
 h1, h2, h3 {

@@ -56,22 +56,18 @@ body {
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
 }
 
+.map-page-container {
+  width: 96%;
+  max-width: 1400px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
 h1, h2, h3 {
   color: #0f172a;
-}
-
-.map-frame-wrapper {
-  margin-top: 1.5rem;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  border: 1px solid #dbe3ee;
-}
-
-.map-frame-wrapper iframe {
-  width: 100%;
-  height: 650px;
-  border: none;
 }
 
 .note-box {
@@ -80,6 +76,20 @@ h1, h2, h3 {
   padding: 1rem;
   border-radius: 10px;
   margin: 1.2rem 0;
+}
+
+.map-fullscreen-wrapper {
+  margin-top: 1.5rem;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  border: 1px solid #dbe3ee;
+}
+
+arcgis-embedded-map {
+  display: block;
+  width: 100%;
+  height: 85vh;
 }
 
 .site-footer {

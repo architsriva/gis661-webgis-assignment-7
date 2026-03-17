@@ -6,8 +6,9 @@ body_class: map-page
 
 <h1>Embedded Web Map</h1>
 
-<p>
-  This page displays the embedded web mapping output created for GIS 661 Web GIS 2 Assignment 7.The map below is embedded using the provided ArcGIS embed code.
+<p class="intro-text">
+  This page displays the embedded web mapping output created for GIS 661 Web GIS 2 Assignment 7.
+  The map below is embedded using the provided HTML iframe code.
 </p>
 
 <div class="note-box">
@@ -15,10 +16,10 @@ body_class: map-page
 </div>
 
 <div class="map-fullscreen-wrapper">
+
   <script type="module" src="https://js.arcgis.com/5.0/embeddable-components/"></script>
 
   <arcgis-embedded-map
-    style="height:85vh; width:100%;"
     item-id="a66f428fee924ddf963437f38f6b6a01"
     theme="dark"
     heading-enabled
@@ -31,4 +32,5 @@ body_class: map-page
     scale="144447.638572"
     portal-url="https://univredlands.maps.arcgis.com">
   </arcgis-embedded-map>
+
 </div>

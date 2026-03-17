@@ -9,6 +9,7 @@
 
 <body class="{{ page.body_class }}">
 
+  {% unless page.body_class == "map-page" %}
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">{{ site.title }}</h1>
@@ -20,16 +21,19 @@
       </nav>
     </div>
   </header>
+  {% endunless %}
 
   <main class="{% if page.body_class == 'map-page' %}map-page-container{% else %}container content-card{% endif %}">
     {{ content }}
   </main>
 
+  {% unless page.body_class == "map-page" %}
   <footer class="site-footer">
     <div class="container">
       <p>Created for GIS 661 Web GIS 2 - Assignment 7</p>
     </div>
   </footer>
+  {% endunless %}
 
 </body>
 </html>

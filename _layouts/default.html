@@ -6,7 +6,7 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-<body>
+<body class="{{ page.body_class }}">
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">{{ site.title }}</h1>
@@ -18,7 +18,7 @@
     </div>
   </header>
 
-  <main class="container content-card">
+  <main class="{% if page.body_class == 'map-page' %}map-page-container{% else %}container content-card{% endif %}">
     {{ content }}
   </main>
 

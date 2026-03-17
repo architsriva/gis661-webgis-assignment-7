@@ -11,4 +11,4 @@ The site demonstrates how to embed a web mapping output into a Jekyll-powered Gi
 - Custom layout and styling using Jekyll  
 
 ## Live Site
-[https://yourusername.github.io/gis661-webgis-assignment-7/](https://architsriva.github.io/gis661-webgis-assignment-7/)
+[https://architsriva.github.io/gis661-webgis-assignment-7/](https://architsriva.github.io/gis661-webgis-assignment-7/)
